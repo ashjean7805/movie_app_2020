@@ -13,7 +13,7 @@ class App extends React.Component {
         },
       } = await axios.get('https:yts-proxy.now.sh/list_movies.json');
         console.log(movies);
-    }
+    };
 
     componentDidMount() {
         this.getMovies();
